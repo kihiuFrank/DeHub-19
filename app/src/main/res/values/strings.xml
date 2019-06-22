@@ -12,6 +12,7 @@
     <string name="btn_login">Login</string>
     <string name="Login">Login</string>
     <string name="sampleMail">abc@gmail.com</string>
+    <string name="Pay">Pay Via? </string>
 
 
     <string name="password">Password</string>
@@ -21,6 +22,7 @@
 
     <string name="attempts">Attempts Left:</string>
     <string name="scan">Scan </string>
+    <string name="items">My Items </string>
     <string name="result">Result </string>
 
 
@@ -35,8 +37,9 @@
 
     <string name="hint_gender">Gender</string>
     <string name="loginLink">Already registered? Click here to login. </string>
-    <string name="male">Male</string>
-    <string name="female">Female</string>
+    <string name="saf">M-Pesa</string>
+    <string name="bank">VISA</string>
+    <string name="send">Pay</string>
 
     <string name="yes">Yes</string>
     <string name="no">No</string>
@@ -47,4 +50,5 @@
     <string name="btn_link_login">Have an account? Login !!</string>
     <string name="title_activity_scan">ScanActivity</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_items">ItemsActivity</string>
 </resources>

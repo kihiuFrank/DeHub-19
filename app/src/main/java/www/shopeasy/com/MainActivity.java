@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if (!PASSWORD_PATTERN.matcher(pass).matches()){
                     loginInputPassword.setError("Password too weak!");
                 } else {
-                    Toast.makeText(getApplicationContext(), "Logging you in...", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), "Logging you in...", Toast.LENGTH_SHORT).show();
                     Intent i = new Intent(getApplicationContext(), HomeActivity.class);
                     startActivity(i);
                 }

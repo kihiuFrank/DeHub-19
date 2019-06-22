@@ -6,6 +6,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import android.widget.Toast;
 
 import com.google.zxing.Result;
 
@@ -29,6 +30,7 @@ public class ScanActivity extends AppCompatActivity implements ZXingScannerView.
     public void handleResult(Result rawResult) {
         HomeActivity.result.setText(rawResult.getText());
         onBackPressed();
+        Toast.makeText(getApplicationContext(),"Item added to cart", Toast.LENGTH_LONG).show();
     }
 
     @Override

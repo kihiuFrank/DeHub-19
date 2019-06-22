@@ -103,7 +103,7 @@ public class RegisterActivity extends AppCompatActivity {
                 } else if (!passConfirm.equals (pass)) {
                     passConfirmation.setError("Passwords must be similar!");
                 } else {
-                    Toast.makeText(getApplicationContext(),"Getting you registered", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(),"Getting you registered", Toast.LENGTH_SHORT).show();
                 }
 
             }

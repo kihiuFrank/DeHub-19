@@ -14,6 +14,7 @@ public class HomeActivity extends AppCompatActivity{
 
         public static TextView result;
         Button btn_scan;
+        Button btn_items;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,16 @@ public class HomeActivity extends AppCompatActivity{
 
         btn_scan = findViewById(R.id.btn_scan);
         result = findViewById(R.id.text_scan);
+        btn_items = findViewById(R.id.btn_items);
+
+        btn_items.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), ItemsActivity.class);
+                 startActivity(intent);
+
+            }
+        });
 
         btn_scan.setOnClickListener(new View.OnClickListener() {
             @Override
