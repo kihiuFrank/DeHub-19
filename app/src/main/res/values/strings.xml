@@ -8,6 +8,17 @@
 
     <string name="userType">Register as &#8230;</string>
 
+    <string-array name="products">
+        <item>Bread    50</item>
+        <item>Sugar    100</item>
+        <item>Flour    120</item>
+        <item>Honey    200</item>
+        <item>Chocolate    50</item>
+        <!--<item>A4    60</item>-->
+        <!--<item>Phone    7990</item>-->
+        <!--<item>Fridge    40000</item>-->
+    </string-array>
+
     <string name="home">Home</string>
     <string name="btn_login">Login</string>
     <string name="Login">Login</string>
