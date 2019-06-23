@@ -3,6 +3,7 @@
     package="www.shopeasy.com">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -12,11 +13,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ItemsActivity"
+            android:name=".Items"
             android:label="@string/title_activity_items"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".HomeActivity"
+            android:name=".Home"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity

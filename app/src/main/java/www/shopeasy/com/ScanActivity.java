@@ -1,15 +1,12 @@
 package www.shopeasy.com;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.widget.Toast;
 
 import com.google.zxing.Result;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import me.dm7.barcodescanner.zxing.ZXingScannerView;
 
 public class ScanActivity extends AppCompatActivity implements ZXingScannerView.ResultHandler {
@@ -28,7 +25,7 @@ public class ScanActivity extends AppCompatActivity implements ZXingScannerView.
 
     @Override
     public void handleResult(Result rawResult) {
-        HomeActivity.result.setText(rawResult.getText());
+        Home.result.setText(rawResult.getText());
         onBackPressed();
         Toast.makeText(getApplicationContext(),"Item added to cart", Toast.LENGTH_LONG).show();
     }

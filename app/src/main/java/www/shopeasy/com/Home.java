@@ -2,15 +2,14 @@ package www.shopeasy.com;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class HomeActivity extends AppCompatActivity{
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+public class Home extends AppCompatActivity {
 
         public static TextView result;
         Button btn_scan;
@@ -30,7 +29,7 @@ public class HomeActivity extends AppCompatActivity{
         btn_items.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), ItemsActivity.class);
+                Intent intent = new Intent(getApplicationContext(), Items.class);
                  startActivity(intent);
 
             }

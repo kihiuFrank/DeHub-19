@@ -40,7 +40,7 @@
             android:layout_marginEnd="5dp"
             android:src="@drawable/splash" />
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/first_name_widget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,9 +60,9 @@
                 android:focusable="true"
                 android:hint="@string/Enter_First_name" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/last_name_widget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,9 +81,9 @@
                 android:hint="@string/Enter_Last_name"
                 android:inputType="text" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email_widget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,9 +102,9 @@
                 android:hint="@string/Enter_Email"
                 android:inputType="textEmailAddress" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_widget"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -123,9 +123,9 @@
                 android:hint="@string/Enter_password"
                 android:inputType="textPassword" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <android.support.design.widget.TextInputLayout
+        <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/password_Confirmation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                 android:hint="@string/ConfirmPassword"
                 android:inputType="textPassword" />
 
-        </android.support.design.widget.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btn_signup"
